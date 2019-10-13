@@ -11,6 +11,12 @@ int main(){
 
 	int k = 4;
 
+	if(k > n){
+		
+		cout<<"Invalid!";
+		return 0;
+	}
+
 	int sum = 0;
 
 	for(int i=0;i<k;i++) sum += a[i];
